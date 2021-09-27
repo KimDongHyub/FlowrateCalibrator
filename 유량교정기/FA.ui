@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="LUT">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>60</y>
+      <width>361</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>voltage(V)</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>standard(ml/m)</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>observed(ml/m)</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>1.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>100</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>100</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>200</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>200</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>3.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>300</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>300</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>4.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>400</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>400</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>5.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>500</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>500</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>6.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>600</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>600</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>7.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>700</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>700</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>8.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>800</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>800</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>9.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>900</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>900</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>10.0</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>1000</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>1000</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>390</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="startbutton">
+       <property name="text">
+        <string>START</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="savebutton">
+       <property name="text">
+        <string>SAVE</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>60</y>
+      <width>361</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1. START 버튼을 누르고 60초간 유량을 실측하세요.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2. 실측한 값을 observed(ml/m) 열에 입력하세요.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3. SAVE 버튼을 누르면 최적화된 voltage값이 갱신됩니다.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4. 한 실행에 최대 3가지 유체를 조절 가능합니다.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5. observed(ml/m) 열에 0 입력은 유효하지 않습니다. (SAVE 불가 PLOT GRAPH 불가)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>   실수로 0입력시 0을 지우고 유효한 값을 넣어서 SAVE 해주세요.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6. PLOT GRAPH는 최소 1회 SAVE 후에 가능합니다</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>FLOWRATE CALIBRATOR</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>410</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QRadioButton" name="radioButton_1">
+       <property name="text">
+        <string>FLUID1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>FLUID2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="text">
+        <string>FLUID3</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>440</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="timerlabel">
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>60</string>
+       </property>
+      </widget>
+     </item>
+     <item alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="warninglabel">
+       <property name="text">
+        <string>WARNING: N/A</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="graphbutton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>30</y>
+      <width>181</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLOT GRAPH</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee UI</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PLEASE READ</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>savebutton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>save()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>666</x>
+     <y>415</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>676</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>startbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>501</x>
+     <y>422</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>676</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_1</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>fluid1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>427</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>91</x>
+     <y>481</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>fluid2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>422</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>473</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>fluid3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>262</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>261</x>
+     <y>471</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>graphbutton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showgraph()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>signal1()</signal>
+  <slot>save()</slot>
+  <slot>start()</slot>
+  <slot>fluid1()</slot>
+  <slot>fluid2()</slot>
+  <slot>fluid3()</slot>
+  <slot>showgraph()</slot>
+  <slot>slot2()</slot>
+ </slots>
+</ui>
